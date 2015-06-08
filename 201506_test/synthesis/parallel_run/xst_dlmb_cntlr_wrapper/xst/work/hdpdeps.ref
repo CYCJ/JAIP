@@ -1,0 +1,9 @@
+V3 6
+FL C:/20150106/synthesis/parallel_run/hdl/dlmb_cntlr_wrapper.vhd 2015/05/11.13:35:20 O.87xd
+EN work/dlmb_cntlr_wrapper 1431322553 \
+      FL C:/20150106/synthesis/parallel_run/hdl/dlmb_cntlr_wrapper.vhd \
+      PB ieee/std_logic_1164 1325952872 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      LB lmb_bram_if_cntlr_v3_00_b
+AR work/dlmb_cntlr_wrapper/STRUCTURE 1431322554 \
+      FL C:/20150106/synthesis/parallel_run/hdl/dlmb_cntlr_wrapper.vhd \
+      EN work/dlmb_cntlr_wrapper 1431322553 CP lmb_bram_if_cntlr

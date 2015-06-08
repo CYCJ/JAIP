@@ -1,0 +1,5 @@
+ERROR:EDK:771 - Cannot write to output directory
+   [C:\Users\Dove\Dropbox\20150106\SDK\SDK_Export\hw\].
+ERROR:EDK:1004 - Datasheet generator failed to setup output directory :
+   C:\Users\Dove\Dropbox\20150106\SDK\SDK_Export\hw\
+ERROR:EDK:3321 - Report generation failed.

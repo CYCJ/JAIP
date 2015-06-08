@@ -1,0 +1,23 @@
+V3 14
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/intc_core.vhd 2011/12/29.18:47:39 O.87xd
+EN xps_intc_v2_01_a/intc_core 1431322707 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/intc_core.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      LB proc_common_v3_00_a PB proc_common_v3_00_a/proc_common_pkg 1431322585
+AR xps_intc_v2_01_a/intc_core/imp 1431322708 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/intc_core.vhd \
+      EN xps_intc_v2_01_a/intc_core 1431322707 CP std_logic_vector CP STATE_TYPE \
+      CP std_logic
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/xps_intc.vhd 2011/12/29.18:47:39 O.87xd
+EN xps_intc_v2_01_a/xps_intc 1431322709 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/xps_intc.vhd \
+      PB ieee/std_logic_1164 1325952872 LB proc_common_v3_00_a \
+      LB plbv46_slave_single_v1_01_a LB xps_intc_v2_01_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1431322585 \
+      PB proc_common_v3_00_a/ipif_pkg 1431322700 \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1431322705 \
+      EN xps_intc_v2_01_a/intc_core 1431322707
+AR xps_intc_v2_01_a/xps_intc/imp 1431322710 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/xps_intc.vhd \
+      EN xps_intc_v2_01_a/xps_intc 1431322709 CP xps_intc_v2_01_a/intc_core \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single

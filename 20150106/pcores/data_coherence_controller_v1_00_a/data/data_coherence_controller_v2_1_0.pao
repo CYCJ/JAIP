@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          E:/JAIP/WT_version/WT_TMT0428/pcores/data_coherence_controller_v1_00_a/data/data_coherence_controller_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Apr 28 09:05:10 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib plbv46_master_burst_v1_01_a  all 
+lib data_coherence_controller_v1_00_a user_logic vhdl
+lib data_coherence_controller_v1_00_a data_coherence_controller vhdl

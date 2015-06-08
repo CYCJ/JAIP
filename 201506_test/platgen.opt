@@ -1,0 +1,13 @@
+-p
+xc5vfx70tff1136-1
+-lang
+vhdl
+-intstyle
+default
+-lp
+C:/
+-msg
+__xps/ise/xmsgprops.lst
+-parallel
+yes
+system.mhs

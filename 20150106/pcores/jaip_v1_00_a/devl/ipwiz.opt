@@ -1,0 +1,11 @@
+-batch 
+-create jaip 
+-ver 1.00.a 
+-dir "E:\JAIP\WB_verison\WB_TMT83_v2" 
+-lang vhdl 
+-bus plbv46 ms 
+-burst m 32 
+-isc 3 
+-intrn 1 1 
+-mem 1 
+-xps 

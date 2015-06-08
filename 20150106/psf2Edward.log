@@ -1,0 +1,42 @@
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 4 master(s) : 9 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: LOCKSTEP_MASTER_OUT, CONNECTOR:
+   microblaze_0_LOCKSTEP_MASTER_OUT - floating connection -
+   C:\Users\Dove\Dropbox\20150106\system.mhs line 80 
+WARNING:EDK:4181 - PORT: ICACHE_FSL_IN_CLK, CONNECTOR:
+   microblaze_0_IXCL_FSL_S_Clk - floating connection -
+   C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_20_b\d
+   ata\microblaze_v2_1_0.mpd line 978 
+WARNING:EDK:4181 - PORT: ICACHE_FSL_OUT_CLK, CONNECTOR:
+   microblaze_0_IXCL_FSL_M_Clk - floating connection -
+   C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_20_b\d
+   ata\microblaze_v2_1_0.mpd line 983 
+WARNING:EDK:4181 - PORT: DCACHE_FSL_OUT_CLK, CONNECTOR:
+   microblaze_0_DXCL_FSL_M_Clk - floating connection -
+   C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_20_b\d
+   ata\microblaze_v2_1_0.mpd line 993 
+WARNING:EDK:4181 - PORT: MD_error, CONNECTOR: jaip_0_MD_error - floating
+   connection - C:\Users\Dove\Dropbox\20150106\system.mhs line 360 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Chipscope Integrate Controller, instance 'chipscope_icon', exists in System 
+Conversion to XML complete.

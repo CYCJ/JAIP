@@ -1,0 +1,53 @@
+V3 25
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/baudrate.vhd 2011/12/29.18:47:43 O.87xd
+EN xps_uartlite_v1_02_a/baudrate 1431322660 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/baudrate.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR xps_uartlite_v1_02_a/baudrate/imp 1431322661 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/baudrate.vhd \
+      EN xps_uartlite_v1_02_a/baudrate 1431322660
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_core.vhd 2011/12/29.18:47:43 O.87xd
+EN xps_uartlite_v1_02_a/uartlite_core 1431322670 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_core.vhd \
+      PB ieee/std_logic_1164 1325952872 LB xps_uartlite_v1_02_a \
+      EN xps_uartlite_v1_02_a/baudrate 1431322660 \
+      EN xps_uartlite_v1_02_a/uartlite_rx 1431322662 \
+      EN xps_uartlite_v1_02_a/uartlite_tx 1431322664
+AR xps_uartlite_v1_02_a/uartlite_core/imp 1431322671 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_core.vhd \
+      EN xps_uartlite_v1_02_a/uartlite_core 1431322670 \
+      CP xps_uartlite_v1_02_a/baudrate CP xps_uartlite_v1_02_a/uartlite_rx \
+      CP xps_uartlite_v1_02_a/uartlite_tx
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_rx.vhd 2011/12/29.18:47:43 O.87xd
+EN xps_uartlite_v1_02_a/uartlite_rx 1431322662 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_rx.vhd \
+      PB ieee/std_logic_1164 1325952872 LB proc_common_v3_00_a \
+      EN proc_common_v3_00_a/dynshreg_i_f 1431322638 \
+      EN proc_common_v3_00_a/srl_fifo_f 1431322642
+AR xps_uartlite_v1_02_a/uartlite_rx/imp 1431322663 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_rx.vhd \
+      EN xps_uartlite_v1_02_a/uartlite_rx 1431322662 \
+      CP proc_common_v3_00_a/dynshreg_i_f CP proc_common_v3_00_a/srl_fifo_f
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_tx.vhd 2011/12/29.18:47:43 O.87xd
+EN xps_uartlite_v1_02_a/uartlite_tx 1431322664 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_tx.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 \
+      LB proc_common_v3_00_a EN proc_common_v3_00_a/dynshreg_i_f 1431322638 \
+      EN proc_common_v3_00_a/srl_fifo_f 1431322642
+AR xps_uartlite_v1_02_a/uartlite_tx/imp 1431322665 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/uartlite_tx.vhd \
+      EN xps_uartlite_v1_02_a/uartlite_tx 1431322664 \
+      CP proc_common_v3_00_a/dynshreg_i_f CP proc_common_v3_00_a/srl_fifo_f
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/xps_uartlite.vhd 2011/12/29.18:47:43 O.87xd
+EN xps_uartlite_v1_02_a/xps_uartlite 1431322672 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/xps_uartlite.vhd \
+      PB ieee/std_logic_1164 1325952872 LB proc_common_v3_00_a \
+      LB plbv46_slave_single_v1_01_a LB xps_uartlite_v1_02_a \
+      PB proc_common_v3_00_a/ipif_pkg 1431322657 \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1431322668 \
+      EN xps_uartlite_v1_02_a/uartlite_core 1431322670
+AR xps_uartlite_v1_02_a/xps_uartlite/imp 1431322673 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/xps_uartlite_v1_02_a/hdl/vhdl/xps_uartlite.vhd \
+      EN xps_uartlite_v1_02_a/xps_uartlite 1431322672 \
+      CP xps_uartlite_v1_02_a/uartlite_core \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\20150106\SDK\SDK_Export\hw\system.bit" key="WB_TMT_83_GC_hw_platform-bitFile"/>
+	<item value="C:\20150106\SDK\SDK_Export\hw\system_bd.bmm" key="WB_TMT_83_GC_hw_platform-bmmFile"/>
+	<item value="bootloop" key="WB_TMT_83_GC_hw_platform-microblaze_0-initElf"/>
+</section>

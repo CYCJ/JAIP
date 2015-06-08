@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc5vfx70tff1136-1
+-top ddr2_sdram_wrapper
+-ifmt MIXED
+-ifn ddr2_sdram_wrapper_xst.prj
+-ofn ddr2_sdram_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {./}
+-vlgincdir {"C:\20150106\pcores\" "C:\20140701_original\pcores\" "C:\201501\pcores\" "C:\20150106ttt\pcores\" "C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

@@ -1,0 +1,816 @@
+Release 13.4 Map O.87xd (nt64)
+Xilinx Map Application Log File for Design 'system'
+
+Design Information
+------------------
+Command Line   : map -o system_map.ncd -w -pr b -ol high -timing -detail
+system.ngd system.pcf 
+Target Device  : xc5vfx70t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : MON 11 MAY 13:47:56 2015
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:56 - Part 'xc5vfx70t' is not a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal fpga_0_SysACE_CompactFlash_SysACE_MPIRQ_pin
+   connected to top level port fpga_0_SysACE_CompactFlash_SysACE_MPIRQ_pin has
+   been removed.
+Writing file system_map.ngm...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_0
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_0_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKAU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKAL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKBU connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   lmb_bram/lmb_bram/ramb36_1
+   of frag REGCLKBL connected to power/ground net
+   lmb_bram/lmb_bram/ramb36_1_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[1].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[2].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[3].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[4].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36
+   of frag REGCLKBU connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36
+   of frag REGCLKBL connected to power/ground net
+   chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I
+   _CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_V5.U_CS_BRAM_CASCADE_V5/I_DEPTH_LTEQ_3
+   2K.U_SBRAM_0/I_B36KGT0.G_RAMB36[5].u_ramb36/U_RAMB36_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   jaip_0/jaip_0/USER_LOGIC_I/GC1/Mram_MEM
+   of frag REGCLKAU connected to power/ground net
+   jaip_0/jaip_0/USER_LOGIC_I/GC1/Mram_MEM_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   jaip_0/jaip_0/USER_LOGIC_I/GC1/Mram_MEM
+   of frag REGCLKAL connected to power/ground net
+   jaip_0/jaip_0/USER_LOGIC_I/GC1/Mram_MEM_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/DATA_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].
+   RAMB36_I1_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_Wr
+   iteThrough.DCache_I1/TAG_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].R
+   AMB36_I1_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKAU_
+   tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKAL_
+   tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKBU_
+   tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Data_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKBL_
+   tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKAU_t
+   iesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKAL_t
+   iesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKBU_t
+   iesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_ICache.ICache_I
+   1/Tag_RAM_Module/Using_B16_S36.Using_RAMB36.The_BRAMs[0].RAMB36_I1_REGCLKBL_t
+   iesig
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 1 mins 31 secs 
+Total CPU  time at the beginning of Placer: 1 mins 25 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:9f1ed8dc) REAL time: 1 mins 39 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:838 - An IO Bus with more than one IO standard is found.
+   Components associated with this bus are as follows: 
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<31>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<30>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<29>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<28>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<27>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<26>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<25>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<24>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<23>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<22>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<21>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<20>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<19>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<18>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<17>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<16>   IOSTANDARD = LVDCI_33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<15>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<14>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<13>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<12>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<11>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<10>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<9>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<8>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<7>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<6>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<5>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<4>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<3>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<2>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<1>   IOSTANDARD = LVCMOS33
+   	 Comp: fpga_0_SRAM_Mem_DQ_pin<0>   IOSTANDARD = LVCMOS33
+
+
+Phase 2.7  Design Feasibility Check (Checksum:9f1ed8dc) REAL time: 1 mins 39 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:b5b9ac04) REAL time: 1 mins 39 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:37267f65) REAL time: 1 mins 39 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:37267f65) REAL time: 2 mins 14 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:37267f65) REAL time: 2 mins 15 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+
+
+There are 16 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y7:                        | CLOCKREGION_X1Y7:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y6:                        | CLOCKREGION_X1Y6:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 3 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y5:                        | CLOCKREGION_X1Y5:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y4:                        | CLOCKREGION_X1Y4:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 3 in use      |   4 edge BUFIOs available, 0 in use      |
+|   2 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 2 in use      |   4 edge BUFIOs available, 0 in use      |
+|   0 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   2 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   4 Regional Clock Spines, 0 in use      |   4 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   4 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   0 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y1>
+  key resource utilizations (used/available): edge-bufios - 2/4; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|  24  |  2  |  0 |   60   |   60   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|  24  |  4  |  0 |   40   |   40   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|  24  |  0  |  0 |   80   |   80   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2>
+  key resource utilizations (used/available): edge-bufios - 3/4; center-bufios - 0/2; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|   8  |  0  |  0 |   60   |   60   |  1280 |   640 |  1920 |   0  |   0  |  1  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|  24  |  2  |  0 |   60   |   60   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|  24  |  4  |  0 |   40   |   40   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6>
+  key resource utilizations (used/available): edge-bufios - 3/4; bufrs - 0/2; regional-clock-spines - 0/4
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region|  24  |  0  |  0 |   80   |   80   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion|  24  |  4  |  0 |   40   |   40   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region|  24  |  2  |  0 |   60   |   60   |  3200 |  1600 |  4800 |   0  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| BUFIO |             |   0  |  0  |  0 |    9   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 16  (4 clock spines in each)
+# Number of Regional Clock Networks used in this design: 8 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" driven by
+"BUFIO_X0Y10"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[3].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y10" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<3>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" driven by
+"BUFIO_X0Y7"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[2].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y7" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<2>" RANGE =
+CLOCKREGION_X0Y1;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" driven by
+"BUFIO_X0Y4"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[1].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y4" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<1>" RANGE =
+CLOCKREGION_X0Y1;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" driven by
+"BUFIO_X0Y9"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[0].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y9" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<0>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" driven by
+"BUFIO_X0Y27"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[7].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y27" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<7>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" driven by
+"BUFIO_X0Y26"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[6].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y26" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<6>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" driven by
+"BUFIO_X0Y25"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[5].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y25" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<5>" RANGE =
+CLOCKREGION_X0Y6;
+
+
+# IO-Clock "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" driven by
+"BUFIO_X0Y11"
+INST "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/gen_dqs[4].u_iob_dqs/u_bufio_dqs" LOC =
+"BUFIO_X0Y11" ;
+NET "DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" TNM_NET =
+"TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" ;
+TIMEGRP "TN_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" AREA_GROUP =
+"CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" ;
+AREA_GROUP "CLKAG_DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/delayed_dqs<4>" RANGE =
+CLOCKREGION_X0Y2;
+
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:aa74a75a) REAL time: 2 mins 20 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:aa74a75a) REAL time: 2 mins 20 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:aa74a75a) REAL time: 2 mins 20 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:aa74a75a) REAL time: 2 mins 21 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:aa74a75a) REAL time: 2 mins 22 secs 
+
+Phase 12.8  Global Placement
+..............................
+...............................................................................................................................
+.............................................................................................................................
+...........................................................................................................
+...................................................................................................................................................................
+.................................................................................................................................................................................
+........................................................................................................................................................................................
+...............................................................................
+Phase 12.8  Global Placement (Checksum:9972c3d3) REAL time: 9 mins 11 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:9972c3d3) REAL time: 9 mins 11 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:9972c3d3) REAL time: 9 mins 13 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:7afac1fa) REAL time: 12 mins 16 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:7afac1fa) REAL time: 12 mins 18 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:7afac1fa) REAL time: 12 mins 20 secs 
+
+Total REAL time to Placer completion: 12 mins 22 secs 
+Total CPU  time to Placer completion: 12 mins 15 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net chipscope_ila_0_icon_control<13> is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   jaip_0/jaip_0/USER_LOGIC_I/labal_enable_arraycopy_0.HW_acc1/next_aryBufLen_not0001 is sourced by a combinatorial pin.
+   This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/cacheMB_dirty_in_0_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/cacheMB_dirty_in_1_not0001 is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<31>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal <dlmb_LMB_ABus<30>> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N20/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage9/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N32/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage15/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N48/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage23/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N16/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage7/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N20/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage9/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N44/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage21/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N24/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage11/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_TRIG/U_TC/I_TSEQ_NEQ2.U_TC_EQUATION/iTRIGGER/jai
+   p_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage3/DP.HIGH> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N40/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage19/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N28/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage13/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N4/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bra
+   mobj/Mram_Astroage1/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N12/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage5/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N36/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage17/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/PLBV46_MASTER_BURST_I/I_RD_WR_CONTROL/I_REQ_CALCULATOR/sig_cmd_is_valid/jaip_0/jaip_0/USER_LOGIC_I/Cac
+   he_controller1/G1[0].bramobj/Mram_Astroage3/DP.HIGH> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N66/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage32/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N52/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage25/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_TRIG/trigCondIn/jaip_0/jaip_0/USER_LOGIC_I/Cache
+   _controller1/G1[0].bramobj/Mram_Astroage7/DP.HIGH> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N64/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].br
+   amobj/Mram_Astroage31/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N24/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage11/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N28/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage13/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/flush_index<0>/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramo
+   bj/Mram_Astroage23/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <DDR2_SDRAM/DDR2_SDRAM/PLB_0_INST.plbv46_pim_0/comp_plbv46_pim/GENERATE_PLB_PLBV46_PIM.PIM_WRITE_MODULE/end_padding_r
+   eg/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage5/DP.HIGH> is incomplete. The signal does
+   not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/BAUD_RATE_I/EN_16x_Baud/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0]
+   .bramobj/Mram_Astroage1/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/UARTLITE_RX_I/rx_2/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bram
+   obj/Mram_Astroage19/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <SysACE_CompactFlash/SysACE_CompactFlash/I_SYSACE_CONTROLLER/SYNC_2_CLOCKS_I/rdAck_sync2sysclk_int/jaip_0/jaip_0/USER
+   _LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage21/DP.HIGH> is incomplete. The signal does not drive any load
+   pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N32/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage15/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N52/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage25/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N64/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage31/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N36/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage17/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N66/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].br
+   amobj/Mram_Astroage32/DP.HIGH> is incomplete. The signal does not drive any load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   76
+Slice Logic Utilization:
+  Number of Slice Registers:                33,971 out of  44,800   75%
+    Number used as Flip Flops:              33,860
+    Number used as Latches:                    100
+    Number used as Latch-thrus:                 11
+  Number of Slice LUTs:                     31,827 out of  44,800   71%
+    Number used as logic:                   30,440 out of  44,800   67%
+      Number using O6 output only:          25,746
+      Number using O5 output only:           1,780
+      Number using O5 and O6:                2,914
+    Number used as Memory:                   1,257 out of  13,120    9%
+      Number used as Dual Port RAM:            208
+        Number using O6 output only:           124
+        Number using O5 and O6:                 84
+      Number used as Single Port RAM:           68
+        Number using O6 output only:            68
+      Number used as Shift Register:           981
+        Number using O6 output only:           979
+        Number using O5 output only:             1
+        Number using O5 and O6:                  1
+    Number used as exclusive route-thru:       130
+  Number of route-thrus:                     2,435
+    Number using O6 output only:             1,893
+    Number using O5 output only:               530
+    Number using O5 and O6:                     12
+
+Slice Logic Distribution:
+  Number of occupied Slices:                11,080 out of  11,200   98%
+  Number of LUT Flip Flop pairs used:       40,939
+    Number with an unused Flip Flop:         6,968 out of  40,939   17%
+    Number with an unused LUT:               9,112 out of  40,939   22%
+    Number of fully used LUT-FF pairs:      24,859 out of  40,939   60%
+    Number of unique control sets:           1,416
+    Number of slice register sites lost
+      to control set restrictions:           2,858 out of  44,800    6%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       213 out of     640   33%
+    Number of LOCed IOBs:                      213 out of     213  100%
+    IOB Flip Flops:                            456
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      64 out of     148   43%
+    Number using BlockRAM only:                 64
+    Total primitives used:
+      Number of 36k BlockRAM used:              48
+      Number of 18k BlockRAM used:              26
+    Total Memory used (KB):                  2,196 out of   5,328   41%
+  Number of BUFG/BUFGCTRLs:                     10 out of      32   31%
+    Number used as BUFGs:                       10
+  Number of IDELAYCTRLs:                         3 out of      22   13%
+  Number of BSCANs:                              2 out of       4   50%
+  Number of BUFIOs:                              8 out of      80   10%
+  Number of DCM_ADVs:                            1 out of      12    8%
+  Number of DSP48Es:                             6 out of     128    4%
+  Number of PLL_ADVs:                            1 out of       6   16%
+
+  Number of RPM macros:            9
+Average Fanout of Non-Clock Nets:                3.60
+
+Peak Memory Usage:  1567 MB
+Total REAL time to MAP completion:  12 mins 47 secs 
+Total CPU time to MAP completion:   12 mins 40 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.

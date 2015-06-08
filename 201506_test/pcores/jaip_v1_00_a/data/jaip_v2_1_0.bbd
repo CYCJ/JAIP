@@ -1,0 +1,9 @@
+##############################################################################
+## Filename:          D:\MMES_JavaPlatform\Java_v2.1\version_2.4\EDK\pcores/jpl_v2_00_a/data/jpl_v2_1_0.bbd
+## Description:       Black Box Definition
+## Date:              Tue Apr 21 17:34:22 2009 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+Files
+################################################################################
+divider.ngc,multiplier.ngc,mulu32.ngc,divver1.ngc,divider_64.ngc

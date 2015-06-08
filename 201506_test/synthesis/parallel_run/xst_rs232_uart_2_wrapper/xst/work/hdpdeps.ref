@@ -1,0 +1,9 @@
+V3 6
+FL C:/20150106/synthesis/parallel_run/hdl/rs232_uart_2_wrapper.vhd 2015/05/11.13:35:20 O.87xd
+EN work/rs232_uart_2_wrapper 1431322680 \
+      FL C:/20150106/synthesis/parallel_run/hdl/rs232_uart_2_wrapper.vhd \
+      PB ieee/std_logic_1164 1325952872 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
+      LB xps_uartlite_v1_02_a
+AR work/rs232_uart_2_wrapper/STRUCTURE 1431322681 \
+      FL C:/20150106/synthesis/parallel_run/hdl/rs232_uart_2_wrapper.vhd \
+      EN work/rs232_uart_2_wrapper 1431322680 CP xps_uartlite

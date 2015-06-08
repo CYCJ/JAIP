@@ -1,0 +1,123 @@
+Xilinx Platform Studio (XPS)
+Xilinx EDK 13.4 Build EDK_O.87xd
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	C:\20150106\etc\system.filters
+Done writing Tab View settings to:
+	C:\20150106\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 13.4 Build EDK_O.87xd
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/multiplier.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/mulu32.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divver1.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider_64.ngc
+
+********************************************************************************
+At Local date and time: Mon Jan 12 14:54:13 2015
+ make -f system.make clean started...
+rm -f implementation/system.ngc
+rm -f platgen.log
+rm -f __xps/ise/_xmsgs/platgen.xmsgs
+rm -f implementation/system.bmm
+rm -rf implementation/cache
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f implementation/download.bit 
+rm -f __xps/system_bits
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -f __xps/ise/_xmsgs/bitinit.xmsgs
+rm -rf SDK
+rm -rf __xps/ps7_instance.mhs
+rm -rf simulation/behavioral
+rm -f simgen.log
+rm -f __xps/ise/_xmsgs/simgen.xmsgs
+rm -f _impact.cmd
+Done!
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/multiplier.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/mulu32.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divver1.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider_64.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/multiplier.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/mulu32.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divver1.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider_64.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/multiplier.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/mulu32.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divver1.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider_64.ngc
+
+********************************************************************************
+At Local date and time: Mon Jan 12 14:54:30 2015
+ make -f system.make exporttosdk started...
+IF NOT EXIST "SDK\SDK_Export\hw" @mkdir "SDK\SDK_Export\hw"
+psf2Edward -inp system.xmp -exit_on_error -dont_add_loginfo -edwver 1.2 -xml SDK\SDK_Export\hw/system.xml 
+Release 13.4 - psf2Edward EDK_O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 4 master(s) : 9 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+WARNING:EDK:4181 - PORT: LOCKSTEP_MASTER_OUT, CONNECTOR:
+   microblaze_0_LOCKSTEP_MASTER_OUT - floating connection -
+   C:\Users\Dove\Dropbox\20150106\system.mhs line 80 
+WARNING:EDK:4181 - PORT: ICACHE_FSL_IN_CLK, CONNECTOR:
+   microblaze_0_IXCL_FSL_S_Clk - floating connection -
+   C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_20_b\d
+   ata\microblaze_v2_1_0.mpd line 978 
+WARNING:EDK:4181 - PORT: ICACHE_FSL_OUT_CLK, CONNECTOR:
+   microblaze_0_IXCL_FSL_M_Clk - floating connection -
+   C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_20_b\d
+   ata\microblaze_v2_1_0.mpd line 983 
+WARNING:EDK:4181 - PORT: DCACHE_FSL_OUT_CLK, CONNECTOR:
+   microblaze_0_DXCL_FSL_M_Clk - floating connection -
+   C:\Xilinx\13.4\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_20_b\d
+   ata\microblaze_v2_1_0.mpd line 993 
+WARNING:EDK:4181 - PORT: MD_error, CONNECTOR: jaip_0_MD_error - floating
+   connection - C:\Users\Dove\Dropbox\20150106\system.mhs line 360 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Chipscope Integrate Controller, instance 'chipscope_icon', exists in System 
+Conversion to XML complete.
+xdsgen -inp system.xmp -report SDK\SDK_Export\hw/system.html  -make_docs_local
+Release 13.4 - xdsgen EDK_O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+ERROR:EDK:771 - Cannot write to output directory
+   [C:\Users\Dove\Dropbox\20150106\SDK\SDK_Export\hw\].
+ERROR:EDK:1004 - Datasheet generator failed to setup output directory :
+   C:\Users\Dove\Dropbox\20150106\SDK\SDK_Export\hw\
+ERROR:EDK:3321 - Report generation failed.
+make: *** [SDK\SDK_Export\hw/system.xml] Error 64
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	C:\Users\Dove\Dropbox\20150106\etc\system.filters
+Done writing Tab View settings to:
+	C:\Users\Dove\Dropbox\20150106\etc\system.gui

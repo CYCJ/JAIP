@@ -1,0 +1,16 @@
+EN select_param NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd sub00/vhpl08 1431322707
+EN io_registers NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd sub00/vhpl12 1431322711
+AR select_param imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd sub00/vhpl09 1431322708
+EN mem_state_machine NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd sub00/vhpl02 1431322701
+EN counters NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd sub00/vhpl06 1431322705
+AR emc imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd sub00/vhpl15 1431322722
+AR mem_steer imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd sub00/vhpl11 1431322710
+AR counters imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd sub00/vhpl07 1431322706
+AR io_registers imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd sub00/vhpl13 1431322712
+EN emc NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd sub00/vhpl14 1431322721
+EN mem_steer NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd sub00/vhpl10 1431322709
+AR ipic_if imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd sub00/vhpl01 1431322700
+AR mem_state_machine imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd sub00/vhpl03 1431322702
+EN addr_counter_mux NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd sub00/vhpl04 1431322703
+EN ipic_if NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd sub00/vhpl00 1431322699
+AR addr_counter_mux imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd sub00/vhpl05 1431322704

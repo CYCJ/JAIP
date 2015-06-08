@@ -1,0 +1,82 @@
+V3 40
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/addr_counter_mux 1431322703 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB proc_common_v3_00_a LB unisim \
+      PH unisim/VCOMPONENTS 1325952880 PB proc_common_v3_00_a/proc_common_pkg 1431322553
+AR emc_common_v4_01_a/addr_counter_mux/imp 1431322704 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/addr_counter_mux.vhd \
+      EN emc_common_v4_01_a/addr_counter_mux 1431322703 CP FDRE \
+      CP proc_common_v3_00_a/ld_arith_reg
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/counters 1431322705 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1431322553 \
+      EN proc_common_v3_00_a/ld_arith_reg 1431322621
+AR emc_common_v4_01_a/counters/imp 1431322706 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/counters.vhd \
+      EN emc_common_v4_01_a/counters 1431322705 \
+      CP proc_common_v3_00_a/ld_arith_reg
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/EMC 1431322721 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_SIGNED 1325952874 PB ieee/std_logic_misc 1325952874 \
+      LB unisim PH unisim/VCOMPONENTS 1325952880 LB proc_common_v3_00_a \
+      LB emc_common_v4_01_a PB proc_common_v3_00_a/proc_common_pkg 1431322553
+AR emc_common_v4_01_a/EMC/IMP 1431322722 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/emc.vhd \
+      EN emc_common_v4_01_a/EMC 1431322721 CP emc_common_v4_01_a/ipic_if \
+      CP emc_common_v4_01_a/mem_state_machine \
+      CP emc_common_v4_01_a/addr_counter_mux CP emc_common_v4_01_a/counters \
+      CP emc_common_v4_01_a/select_param CP emc_common_v4_01_a/mem_steer \
+      CP emc_common_v4_01_a/io_registers
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/io_registers 1431322711 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR emc_common_v4_01_a/io_registers/imp 1431322712 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/io_registers.vhd \
+      EN emc_common_v4_01_a/io_registers 1431322711
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/ipic_if 1431322699 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_SIGNED 1325952874 PB ieee/std_logic_misc 1325952874 \
+      LB proc_common_v3_00_a LB unisim PH unisim/VCOMPONENTS 1325952880 \
+      PB proc_common_v3_00_a/proc_common_pkg 1431322553 \
+      EN proc_common_v3_00_a/ld_arith_reg 1431322621
+AR emc_common_v4_01_a/ipic_if/imp 1431322700 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/ipic_if.vhd \
+      EN emc_common_v4_01_a/ipic_if 1431322699 \
+      CP proc_common_v3_00_a/ld_arith_reg
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/mem_state_machine 1431322701 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB unisim PH unisim/VCOMPONENTS 1325952880
+AR emc_common_v4_01_a/mem_state_machine/imp 1431322702 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_state_machine.vhd \
+      EN emc_common_v4_01_a/mem_state_machine 1431322701 CP FDR
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/mem_steer 1431322709 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB proc_common_v3_00_a LB unisim \
+      PH unisim/VCOMPONENTS 1325952880 PB proc_common_v3_00_a/proc_common_pkg 1431322553
+AR emc_common_v4_01_a/mem_steer/imp 1431322710 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/mem_steer.vhd \
+      EN emc_common_v4_01_a/mem_steer 1431322709 CP std_logic_vector CP std_logic \
+      CP FDS CP FDR CP FDRE
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd 2011/12/29.18:47:06 O.87xd
+EN emc_common_v4_01_a/select_param 1431322707 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
+      PB ieee/STD_LOGIC_SIGNED 1325952874 PB ieee/std_logic_misc 1325952874 \
+      LB proc_common_v3_00_a PB proc_common_v3_00_a/proc_common_pkg 1431322553
+AR emc_common_v4_01_a/select_param/IMP 1431322708 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/emc_common_v4_01_a/hdl/vhdl/select_param.vhd \
+      EN emc_common_v4_01_a/select_param 1431322707

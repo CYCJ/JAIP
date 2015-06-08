@@ -1,0 +1,711 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -e 3 -xml system.twx
+system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc5vfx70t,ff1136,-1 (PRODUCTION 1.73 2012-01-07, STEPPING level 0)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "fpga_0_SysACE_CompactFlash_SysACE_CLK_pin_BUFGP/IBUFG" 
+PERIOD = 30 ns         HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 227 paths analyzed, 86 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.121ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<7>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.522ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<6>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.522ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<5>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.531ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<4>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.522ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<3>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.522ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<2>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.522ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<1>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.528ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+en_dqs<0>"         MAXDELAY = 0.6 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.522ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[7].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.838ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[6].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.803ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[5].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.805ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[4].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.803ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[3].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.803ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[2].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.838ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[1].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.835ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"DDR2_SDRAM/DDR2_SDRAM/mpmc_core_0/gen_v5_ddr2_phy.mpmc_phy_if_0/u_phy_io_0/
+gen_dqs[0].u_iob_dqs/en_dqs_sync"         MAXDELAY = 0.85 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   0.805ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MC_RD_DATA_SEL = MAXDELAY FROM TIMEGRP "TNM_RD_DATA_SEL" 
+TO TIMEGRP "FFS"         12 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 384 paths analyzed, 384 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   8.976ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MC_PHY_INIT_DATA_SEL_0 = MAXDELAY FROM TIMEGRP 
+"TNM_PHY_INIT_DATA_SEL" TO         TIMEGRP "FFS" 12 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MC_PHY_INIT_DATA_SEL_90 = MAXDELAY FROM TIMEGRP 
+"TNM_PHY_INIT_DATA_SEL" TO         TIMEGRP "FFS" 12 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 39 paths analyzed, 37 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   6.421ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MC_GATE_DLY = MAXDELAY FROM TIMEGRP "TNM_GATE_DLY" TO 
+TIMEGRP "FFS" 12 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 40 paths analyzed, 40 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   5.451ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MC_RDEN_DLY = MAXDELAY FROM TIMEGRP "TNM_RDEN_DLY" TO 
+TIMEGRP "FFS" 12 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 5 paths analyzed, 5 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   1.946ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MC_CAL_RDEN_DLY = MAXDELAY FROM TIMEGRP 
+"TNM_CAL_RDEN_DLY" TO TIMEGRP "FFS"         12 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 5 paths analyzed, 5 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.430ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_DQ_CE = MAXDELAY FROM TIMEGRP "TNM_DQ_CE_IDDR" TO TIMEGRP 
+"TNM_DQS_FLOPS"         1.9 ns;
+For more information, see From:To (Multicycle) Analysis in the Timing Closure User Guide (UG612).
+
+ 128 paths analyzed, 64 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   3.684ns.
+ Maximum delay is   1.866ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0" 
+TS_sys_clk_pin         * 1.66666667 PHASE 1.5 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 898 paths analyzed, 764 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.948ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT1 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT1" 
+TS_sys_clk_pin         * 1.66666667 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 11589 paths analyzed, 4656 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.957ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2" 
+TS_sys_clk_pin         * 2 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.666ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT3 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT3" 
+TS_sys_clk_pin         * 0.833333333 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 140356253 paths analyzed, 163465 endpoints analyzed, 714 failing endpoints
+ 714 timing errors detected. (714 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  14.148ns.
+--------------------------------------------------------------------------------
+Slack:                  -2.148ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1 (RAM)
+  Destination:          jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25_1 (FF)
+  Requirement:          12.000ns
+  Data Path Delay:      13.872ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.189ns (0.520 - 0.709)
+  Source Clock:         clk_83_3333MHzPLL0 rising at 0.000ns
+  Destination Clock:    clk_83_3333MHzPLL0 rising at 12.000ns
+  Clock Uncertainty:    0.087ns
+
+  Clock Uncertainty:          0.087ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.159ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1 to jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X2Y10.DOADOL2 Trcko_DO              2.180   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1
+    SLICE_X29Y48.A5      net (fanout=3)        0.589   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_rddata2<2>
+    SLICE_X29Y48.A       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/external_loaded_buffer<27>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack_rddata2<2>1
+    SLICE_X49Y47.C5      net (fanout=2)        1.562   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack_rddata2<2>
+    SLICE_X49Y47.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[37].quot_gen.quot_reg.quot_out/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/LD_data_1<2>1
+    SLICE_X36Y32.D6      net (fanout=18)       1.723   jaip_0/jaip_0/USER_LOGIC_I/Java_core/StackRAM_RD1<2>
+    SLICE_X36Y32.D       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_has_input_skid.i_2to1/reg2_a_tdata<34>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALUopd2<34>1
+    SLICE_X50Y23.B5      net (fanout=39)       1.663   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALUopd2<34>
+    SLICE_X50Y23.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[45].num_stages.numerator_gen.del_numer/opt_has_pipe.first_q<18>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<33>1
+    SLICE_X51Y26.C6      net (fanout=4)        0.455   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<33>
+    SLICE_X51Y26.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<37>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0003<25>1
+    SLICE_X51Y24.B5      net (fanout=2)        0.382   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0003<25>
+    SLICE_X51Y24.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[50].num_stages.numerator_gen.del_numer/opt_has_pipe.first_q<13>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0004<25>1
+    SLICE_X39Y26.C6      net (fanout=2)        1.265   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0004<25>
+    SLICE_X39Y26.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/final_div.del_end_divisor/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>241
+    SLICE_X39Y26.D5      net (fanout=1)        0.226   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>241
+    SLICE_X39Y26.D       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/final_div.del_end_divisor/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>288
+    SLICE_X41Y53.B6      net (fanout=1)        1.620   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/ALU_result_U<25>
+    SLICE_X41Y53.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_8_1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>15
+    SLICE_X41Y53.C5      net (fanout=1)        0.369   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>15
+    SLICE_X41Y53.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_8_1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>69
+    SLICE_X35Y53.CX      net (fanout=2)        0.894   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>
+    SLICE_X35Y53.CLK     Tdick                 0.004   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B<25>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25_1
+    -------------------------------------------------  ---------------------------
+    Total                                     13.872ns (3.124ns logic, 10.748ns route)
+                                                       (22.5% logic, 77.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  -2.146ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1 (RAM)
+  Destination:          jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25 (FF)
+  Requirement:          12.000ns
+  Data Path Delay:      13.870ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.189ns (0.520 - 0.709)
+  Source Clock:         clk_83_3333MHzPLL0 rising at 0.000ns
+  Destination Clock:    clk_83_3333MHzPLL0 rising at 12.000ns
+  Clock Uncertainty:    0.087ns
+
+  Clock Uncertainty:          0.087ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.159ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1 to jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X2Y10.DOADOL2 Trcko_DO              2.180   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1
+    SLICE_X29Y48.A5      net (fanout=3)        0.589   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_rddata2<2>
+    SLICE_X29Y48.A       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/external_loaded_buffer<27>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack_rddata2<2>1
+    SLICE_X49Y47.C5      net (fanout=2)        1.562   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack_rddata2<2>
+    SLICE_X49Y47.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[37].quot_gen.quot_reg.quot_out/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/LD_data_1<2>1
+    SLICE_X36Y32.D6      net (fanout=18)       1.723   jaip_0/jaip_0/USER_LOGIC_I/Java_core/StackRAM_RD1<2>
+    SLICE_X36Y32.D       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_has_input_skid.i_2to1/reg2_a_tdata<34>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALUopd2<34>1
+    SLICE_X50Y23.B5      net (fanout=39)       1.663   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALUopd2<34>
+    SLICE_X50Y23.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[45].num_stages.numerator_gen.del_numer/opt_has_pipe.first_q<18>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<33>1
+    SLICE_X51Y26.C6      net (fanout=4)        0.455   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<33>
+    SLICE_X51Y26.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<37>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0003<25>1
+    SLICE_X51Y24.B5      net (fanout=2)        0.382   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0003<25>
+    SLICE_X51Y24.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[50].num_stages.numerator_gen.del_numer/opt_has_pipe.first_q<13>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0004<25>1
+    SLICE_X39Y26.C6      net (fanout=2)        1.265   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0004<25>
+    SLICE_X39Y26.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/final_div.del_end_divisor/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>241
+    SLICE_X39Y26.D5      net (fanout=1)        0.226   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>241
+    SLICE_X39Y26.D       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/final_div.del_end_divisor/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>288
+    SLICE_X41Y53.B6      net (fanout=1)        1.620   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/ALU_result_U<25>
+    SLICE_X41Y53.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_8_1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>15
+    SLICE_X41Y53.C5      net (fanout=1)        0.369   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>15
+    SLICE_X41Y53.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_8_1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>69
+    SLICE_X35Y53.DX      net (fanout=2)        0.894   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>
+    SLICE_X35Y53.CLK     Tdick                 0.002   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B<25>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25
+    -------------------------------------------------  ---------------------------
+    Total                                     13.870ns (3.122ns logic, 10.748ns route)
+                                                       (22.5% logic, 77.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  -2.135ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack0_lsb1 (RAM)
+  Destination:          jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25_1 (FF)
+  Requirement:          12.000ns
+  Data Path Delay:      13.847ns (Levels of Logic = 10)
+  Clock Path Skew:      -0.201ns (0.520 - 0.721)
+  Source Clock:         clk_83_3333MHzPLL0 rising at 0.000ns
+  Destination Clock:    clk_83_3333MHzPLL0 rising at 12.000ns
+  Clock Uncertainty:    0.087ns
+
+  Clock Uncertainty:          0.087ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.159ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack0_lsb1 to jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB36_X2Y10.DOADOU2 Trcko_DO              2.180   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack1_lsb1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack0_lsb1
+    SLICE_X29Y48.A6      net (fanout=3)        0.564   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack0_rddata2<2>
+    SLICE_X29Y48.A       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/external_loaded_buffer<27>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack_rddata2<2>1
+    SLICE_X49Y47.C5      net (fanout=2)        1.562   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/stack_rddata2<2>
+    SLICE_X49Y47.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[37].quot_gen.quot_reg.quot_out/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/four_port_bank_Unit/LD_data_1<2>1
+    SLICE_X36Y32.D6      net (fanout=18)       1.723   jaip_0/jaip_0/USER_LOGIC_I/Java_core/StackRAM_RD1<2>
+    SLICE_X36Y32.D       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_has_input_skid.i_2to1/reg2_a_tdata<34>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALUopd2<34>1
+    SLICE_X50Y23.B5      net (fanout=39)       1.663   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALUopd2<34>
+    SLICE_X50Y23.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[45].num_stages.numerator_gen.del_numer/opt_has_pipe.first_q<18>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<33>1
+    SLICE_X51Y26.C6      net (fanout=4)        0.455   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<33>
+    SLICE_X51Y26.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0001<37>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0003<25>1
+    SLICE_X51Y24.B5      net (fanout=2)        0.382   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0003<25>
+    SLICE_X51Y24.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/div_loop[50].num_stages.numerator_gen.del_numer/opt_has_pipe.first_q<13>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0004<25>1
+    SLICE_X39Y26.C6      net (fanout=2)        1.265   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/shift2/tmp_result_mux0004<25>
+    SLICE_X39Y26.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/final_div.del_end_divisor/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>241
+    SLICE_X39Y26.D5      net (fanout=1)        0.226   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>241
+    SLICE_X39Y26.D       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/divider64/U0/i_synth/i_nonzero_fract.i_synth/i_algo_r2_nr.i_nonzero_fract.i_sdivider/I_SYNTH_MODEL/divider_blk/final_div.del_end_divisor/opt_has_pipe.first_q<15>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/LALU_Unit/ALU_result<57>288
+    SLICE_X41Y53.B6      net (fanout=1)        1.620   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/ALU_result_U<25>
+    SLICE_X41Y53.B       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_8_1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>15
+    SLICE_X41Y53.C5      net (fanout=1)        0.369   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>15
+    SLICE_X41Y53.C       Tilo                  0.094   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_8_1
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>69
+    SLICE_X35Y53.CX      net (fanout=2)        0.894   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_mux0000<25>
+    SLICE_X35Y53.CLK     Tdick                 0.004   jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B<25>
+                                                       jaip_0/jaip_0/USER_LOGIC_I/Java_core/Execution_Unit/Reg_B_25_1
+    -------------------------------------------------  ---------------------------
+    Total                                     13.847ns (3.124ns logic, 10.723ns route)
+                                                       (22.6% logic, 77.4% route)
+
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      4.000ns|     11.790ns|            0|          714|            0|    140368740|
+| TS_clock_generator_0_clock_gen|      6.000ns|      5.948ns|          N/A|            0|            0|          898|            0|
+| erator_0_SIG_PLL0_CLKOUT0     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      6.000ns|      5.957ns|          N/A|            0|            0|        11589|            0|
+| erator_0_SIG_PLL0_CLKOUT1     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      5.000ns|      1.666ns|          N/A|            0|            0|            0|            0|
+| erator_0_SIG_PLL0_CLKOUT2     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|     12.000ns|     14.148ns|          N/A|          714|            0|    140356253|            0|
+| erator_0_SIG_PLL0_CLKOUT3     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<0>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<0>|         |    1.809|         |    1.833|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<0>  |         |    1.809|         |    1.833|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<1>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<1>|         |    1.764|         |    1.788|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<1>  |         |    1.764|         |    1.788|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<2>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<2>|         |    1.822|         |    1.846|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<2>  |         |    1.822|         |    1.846|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<3>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<3>|         |    1.667|         |    1.691|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<3>  |         |    1.667|         |    1.691|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<4>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<4>|         |    1.829|         |    1.853|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<4>  |         |    1.829|         |    1.853|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<5>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<5>|         |    1.842|         |    1.866|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<5>  |         |    1.842|         |    1.866|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<6>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<6>|         |    1.792|         |    1.816|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<6>  |         |    1.792|         |    1.816|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<7>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<7>|         |    1.817|         |    1.841|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<7>  |         |    1.817|         |    1.841|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<0>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<0>|         |    1.809|         |    1.833|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<0>  |         |    1.809|         |    1.833|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<1>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<1>|         |    1.764|         |    1.788|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<1>  |         |    1.764|         |    1.788|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<2>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<2>|         |    1.822|         |    1.846|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<2>  |         |    1.822|         |    1.846|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<3>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<3>|         |    1.667|         |    1.691|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<3>  |         |    1.667|         |    1.691|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<4>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<4>|         |    1.829|         |    1.853|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<4>  |         |    1.829|         |    1.853|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<5>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<5>|         |    1.842|         |    1.866|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<5>  |         |    1.842|         |    1.866|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<6>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<6>|         |    1.792|         |    1.816|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<6>  |         |    1.792|         |    1.816|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_DDR2_SDRAM_DDR2_DQS_pin<7>
+-----------------------------------+---------+---------+---------+---------+
+                                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------+---------+---------+---------+---------+
+fpga_0_DDR2_SDRAM_DDR2_DQS_n_pin<7>|         |    1.817|         |    1.841|
+fpga_0_DDR2_SDRAM_DDR2_DQS_pin<7>  |         |    1.817|         |    1.841|
+-----------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_SysACE_CompactFlash_SysACE_CLK_pin
+-----------------------------------------+---------+---------+---------+---------+
+                                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                             |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------------------+---------+---------+---------+---------+
+fpga_0_SysACE_CompactFlash_SysACE_CLK_pin|    5.121|         |         |         |
+-----------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock fpga_0_clk_1_sys_clk_pin
+------------------------+---------+---------+---------+---------+
+                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------+---------+---------+---------+---------+
+fpga_0_clk_1_sys_clk_pin|   14.148|    3.773|    4.995|    5.859|
+------------------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 714  Score: 619993  (Setup/Max: 619993, Hold: 0)
+
+Constraints cover 140369568 paths, 16 nets, and 180564 connections
+
+Design statistics:
+   Minimum period:  14.148ns   (Maximum frequency:  70.681MHz)
+   Maximum path delay from/to any node:   8.976ns
+   Maximum net delay:   0.838ns
+
+
+Analysis completed MON 11 MAY 14:21:11 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1281 MB
+
+
+

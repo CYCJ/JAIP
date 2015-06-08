@@ -1,0 +1,3 @@
+PROCESSOR=microblaze_0
+REPOSITORIES=
+HWSPEC=../WB_TMT_83_GC_hw_platform/system.xml

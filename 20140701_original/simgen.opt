@@ -1,0 +1,16 @@
+-p
+xc5vfx70tff1136-1
+-lang
+vhdl
+-intstyle
+default
+-pe
+microblaze_0
+bootloops/microblaze_0.elf
+-msg
+__xps/ise/xmsgprops.lst
+-s
+isim
+-m
+behavioral
+system.mhs

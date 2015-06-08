@@ -1,0 +1,9 @@
+-batch 
+-create data_coherence_controller 
+-ver 1.00.a 
+-dir "E:\JAIP\WB_verison\WB_TMT83_v2" 
+-lang vhdl 
+-bus plbv46 ms 
+-burst m 32 
+-mem 1 
+-xps 

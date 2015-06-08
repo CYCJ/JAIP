@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">chipscope_ila_0_icon_control&lt;13&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/labal_enable_arraycopy_0.HW_acc1/next_aryBufLen_not0001</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/cacheMB_dirty_in_0_not0001</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="new" >Gated clock. Clock net <arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/cacheMB_dirty_in_1_not0001</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;31&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">dlmb_LMB_ABus&lt;30&gt;</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N20/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage9/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N32/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage15/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N48/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage23/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N16/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage7/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N20/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage9/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N44/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage21/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N24/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage11/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_TRIG/U_TC/I_TSEQ_NEQ2.U_TC_EQUATION/iTRIGGER/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage3/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N40/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage19/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N28/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage13/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N4/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage1/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N12/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage5/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N36/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage17/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/PLBV46_MASTER_BURST_I/I_RD_WR_CONTROL/I_REQ_CALCULATOR/sig_cmd_is_valid/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage3/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N66/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage32/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N52/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage25/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">chipscope_ila_0/chipscope_ila_0/i_chipscope_ila_0/U0/I_NO_D.U_ILA/U_TRIG/trigCondIn/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage7/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/N64/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[1].bramobj/Mram_Astroage31/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N24/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage11/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N28/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage13/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/flush_index&lt;0&gt;/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage23/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">DDR2_SDRAM/DDR2_SDRAM/PLB_0_INST.plbv46_pim_0/comp_plbv46_pim/GENERATE_PLB_PLBV46_PIM.PIM_WRITE_MODULE/end_padding_reg/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage5/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/BAUD_RATE_I/EN_16x_Baud/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage1/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">RS232_Uart_1/RS232_Uart_1/UARTLITE_CORE_I/UARTLITE_RX_I/rx_2/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage19/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">SysACE_CompactFlash/SysACE_CompactFlash/I_SYSACE_CONTROLLER/SYNC_2_CLOCKS_I/rdAck_sync2sysclk_int/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage21/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N32/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage15/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N52/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage25/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N64/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage31/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N36/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage17/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/N66/jaip_0/jaip_0/USER_LOGIC_I/Cache_controller1/G1[0].bramobj/Mram_Astroage32/DP.HIGH</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+</messages>
+

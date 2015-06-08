@@ -1,0 +1,56 @@
+##############################################################################
+## Filename:          E:/JAIP/WT_version/WT_TMT0428/pcores/jaip_v1_00_a/data/jaip_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Mon Apr 28 09:04:25 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib plbv46_master_burst_v1_01_a  all 
+lib interrupt_control_v2_01_a  all 
+
+lib jaip_v1_00_a config vhdl
+lib jaip_v1_00_a immROM vhdl
+
+lib jaip_v1_00_a xcptn_hdlr vhdl
+lib jaip_v1_00_a jpc_ctrl vhdl
+lib jaip_v1_00_a class_bram vhdl
+lib jaip_v1_00_a class_symbol_table_buffer vhdl
+lib jaip_v1_00_a class_symbol_table_controller vhdl
+lib jaip_v1_00_a method_area_buffer vhdl
+lib jaip_v1_00_a method_area_controller vhdl
+lib jaip_v1_00_a DynamicResolution_management vhdl
+
+lib jaip_v1_00_a four_port_bank vhdl
+lib jaip_v1_00_a bshifter vhdl
+lib jaip_v1_00_a ALU vhdl
+lib jaip_v1_00_a execute vhdl
+lib jaip_v1_00_a decode vhdl
+lib jaip_v1_00_a fetch vhdl
+lib jaip_v1_00_a translation_ROM vhdl
+lib jaip_v1_00_a translate vhdl
+lib jaip_v1_00_a soj vhdl
+
+lib jaip_v1_00_a mmes_profiler vhdl
+lib jaip_v1_00_a my_bram vhdl
+lib jaip_v1_00_a class_info_table vhdl
+lib jaip_v1_00_a cross_reference_table vhdl
+lib jaip_v1_00_a heap vhdl
+lib jaip_v1_00_a user_logic vhdl
+lib jaip_v1_00_a jaip vhdl
+
+ 
+ 
+ 
+lib jaip_v1_00_a arraycopy vhdl
+lib jaip_v1_00_a arraycopy_single vhdl
+lib jaip_v1_00_a bytecode_profiler vhdl
+lib jaip_v1_00_a Cache_controller vhdl
+lib jaip_v1_00_a cache_storage vhdl
+lib jaip_v1_00_a GC_table vhdl
+lib jaip_v1_00_a GC vhdl
+
+lib jaip_v1_00_a indexOf vhdl
+lib jaip_v1_00_a my_bram_as_rd vhdl 
+lib jaip_v1_00_a thread_management vhdl 
+lib jaip_v1_00_a stack_access_management vhdl 

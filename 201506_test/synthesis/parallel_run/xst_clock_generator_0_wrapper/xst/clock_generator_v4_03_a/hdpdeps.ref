@@ -1,0 +1,33 @@
+V3 19
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd 2011/12/29.18:47:05 O.87xd
+EN clock_generator_v4_03_a/dcm_module 1431322572 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 LB Unisim \
+      PH unisim/VCOMPONENTS 1325952880
+AR clock_generator_v4_03_a/dcm_module/STRUCT 1431322573 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/dcm_module.vhd \
+      EN clock_generator_v4_03_a/dcm_module 1431322572 CP DCM CP DCM_ADV CP BUFG
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/mmcm_module.vhd 2011/12/29.18:47:05 O.87xd
+EN clock_generator_v4_03_a/mmcm_module 1431322576 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/mmcm_module.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 LB Unisim \
+      PH unisim/VCOMPONENTS 1325952880
+AR clock_generator_v4_03_a/mmcm_module/STRUCT 1431322577 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/mmcm_module.vhd \
+      EN clock_generator_v4_03_a/mmcm_module 1431322576 CP MMCM_ADV CP BUFG
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd 2011/12/29.18:47:05 O.87xd
+EN clock_generator_v4_03_a/plle2_module 1431322578 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 LB Unisim \
+      PH unisim/VCOMPONENTS 1325952880
+AR clock_generator_v4_03_a/plle2_module/STRUCT 1431322579 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/plle2_module.vhd \
+      EN clock_generator_v4_03_a/plle2_module 1431322578 CP PLLE2_ADV CP BUFG
+FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/pll_module.vhd 2011/12/29.18:47:05 O.87xd
+EN clock_generator_v4_03_a/pll_module 1431322574 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/pll_module.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877 LB Unisim \
+      PH unisim/VCOMPONENTS 1325952880
+AR clock_generator_v4_03_a/pll_module/STRUCT 1431322575 \
+      FL $XILINX/hw/XilinxProcessorIPLib/pcores/clock_generator_v4_03_a/hdl/vhdl/pll_module.vhd \
+      EN clock_generator_v4_03_a/pll_module 1431322574 CP PLL_ADV CP BUFG
