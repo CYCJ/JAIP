@@ -1,8 +1,0 @@
-V3 5
-FL C:/20150106/hdl/elaborate/chipscope_icon_0_v1_06_a/synhdl/vhdl/chipscope_icon_0.vhd 2015/05/11.13:34:21 O.87xd
-EN chipscope_icon_0_v1_06_a/chipscope_icon 1431322610 \
-      FL C:/20150106/hdl/elaborate/chipscope_icon_0_v1_06_a/synhdl/vhdl/chipscope_icon_0.vhd \
-      PB ieee/std_logic_1164 1325952872 LB UNISIM PH unisim/VCOMPONENTS 1325952880
-AR chipscope_icon_0_v1_06_a/chipscope_icon/STRUCTURE 1431322611 \
-      FL C:/20150106/hdl/elaborate/chipscope_icon_0_v1_06_a/synhdl/vhdl/chipscope_icon_0.vhd \
-      EN chipscope_icon_0_v1_06_a/chipscope_icon 1431322610 CP chipscope_icon_0

@@ -1,8 +1,0 @@
-V3 5
-FL C:/20150106/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd 2015/05/11.13:35:17 O.87xd
-EN lmb_bram_elaborate_v1_00_a/lmb_bram_elaborate 1431322538 \
-      FL C:/20150106/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd \
-      PB ieee/std_logic_1164 1325952872 LB UNISIM PH unisim/VCOMPONENTS 1325952880
-AR lmb_bram_elaborate_v1_00_a/lmb_bram_elaborate/STRUCTURE 1431322539 \
-      FL C:/20150106/hdl/elaborate/lmb_bram_elaborate_v1_00_a/hdl/vhdl/lmb_bram_elaborate.vhd \
-      EN lmb_bram_elaborate_v1_00_a/lmb_bram_elaborate 1431322538 CP RAMB36

@@ -1,9 +1,0 @@
-V3 6
-FL C:/20150106/synthesis/parallel_run/hdl/sram_wrapper.vhd 2015/05/11.13:35:20 O.87xd
-EN work/sram_wrapper 1431322725 \
-      FL C:/20150106/synthesis/parallel_run/hdl/sram_wrapper.vhd \
-      PB ieee/std_logic_1164 1325952872 LB UNISIM PH unisim/VCOMPONENTS 1325952880 \
-      LB xps_mch_emc_v3_01_a
-AR work/sram_wrapper/STRUCTURE 1431322726 \
-      FL C:/20150106/synthesis/parallel_run/hdl/sram_wrapper.vhd \
-      EN work/sram_wrapper 1431322725 CP xps_mch_emc

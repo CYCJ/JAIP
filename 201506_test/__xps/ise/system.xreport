@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-06-08T14:48:17</DateModified>
+  <DateModified>2015-06-08T15:36:33</DateModified>
   <ModuleName>system</ModuleName>
-  <SummaryTimeStamp>2015-06-08T14:48:17</SummaryTimeStamp>
-  <SavedFilePath>C:/JAIP/201506_test/__xps/ise/system.xreport</SavedFilePath>
+  <SummaryTimeStamp>2015-06-08T15:36:33</SummaryTimeStamp>
+  <SavedFilePath>C:/JAIP/JAIP/201506_test/__xps/ise/system.xreport</SavedFilePath>
   <FilterFile>filter.filter</FilterFile>
-  <SavedFilterFilePath>C:/JAIP/201506_test/__xps/ise</SavedFilterFilePath>
+  <SavedFilterFilePath>C:/JAIP/JAIP/201506_test/__xps/ise</SavedFilterFilePath>
   <DateInitialized>2014-05-13T11:45:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,4 +1,0 @@
-EN intc_core NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/intc_core.vhd sub00/vhpl00 1431322707
-AR intc_core imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/intc_core.vhd sub00/vhpl01 1431322708
-AR xps_intc imp C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/xps_intc.vhd sub00/vhpl03 1431322710
-EN xps_intc NULL C:/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/xps_intc_v2_01_a/hdl/vhdl/xps_intc.vhd sub00/vhpl02 1431322709

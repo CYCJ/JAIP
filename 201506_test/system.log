@@ -7,3 +7,51 @@ Done writing filter settings to:
 	C:\20150106\etc\system.filters
 Done writing Tab View settings to:
 	C:\20150106\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 13.4 Build EDK_O.87xd
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Writing filter settings....
+Done writing filter settings to:
+	C:\JAIP\201506_test\etc\system.filters
+Done writing Tab View settings to:
+	C:\JAIP\201506_test\etc\system.gui
+Xilinx Platform Studio (XPS)
+Xilinx EDK 13.4 Build EDK_O.87xd
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/multiplier.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/mulu32.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divver1.ngc
+INFO:EDK - file name is pcores/jaip_v1_00_a/netlist/divider_64.ngc
+
+********************************************************************************
+At Local date and time: Mon Jun 08 15:36:43 2015
+ make -f system.make clean started...
+rm -f implementation/system.ngc
+rm -f platgen.log
+rm -f __xps/ise/_xmsgs/platgen.xmsgs
+rm -f implementation/system.bmm
+rm -rf implementation/cache
+rm -f implementation/system.bit
+rm -f implementation/system.ncd
+rm -f implementation/system_bd.bmm 
+rm -f implementation/system_map.ncd 
+rm -f implementation/download.bit 
+rm -f __xps/system_bits
+rm -rf implementation synthesis xst hdl
+rm -rf xst.srp system.srp
+rm -f __xps/ise/_xmsgs/bitinit.xmsgs
+rm -rf SDK
+rm -rf __xps/ps7_instance.mhs
+rm -rf simulation/behavioral
+rm -f simgen.log
+rm -f __xps/ise/_xmsgs/simgen.xmsgs
+rm -f _impact.cmd
+Done!
+Writing filter settings....
+Done writing filter settings to:
+	C:\JAIP\JAIP\201506_test\etc\system.filters
+Done writing Tab View settings to:
+	C:\JAIP\JAIP\201506_test\etc\system.gui

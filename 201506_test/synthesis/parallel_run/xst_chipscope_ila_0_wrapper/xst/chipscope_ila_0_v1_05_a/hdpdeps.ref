@@ -1,9 +1,0 @@
-V3 5
-FL C:/20150106/hdl/elaborate/chipscope_ila_0_v1_05_a/synhdl/vhdl/chipscope_ila_0.vhd 2015/05/11.13:31:28 O.87xd
-EN chipscope_ila_0_v1_05_a/chipscope_ila 1431322604 \
-      FL C:/20150106/hdl/elaborate/chipscope_ila_0_v1_05_a/synhdl/vhdl/chipscope_ila_0.vhd \
-      PB ieee/std_logic_1164 1325952872 PB ieee/std_logic_arith 1325952873 \
-      PB ieee/STD_LOGIC_UNSIGNED 1325952875 LB Unisim
-AR chipscope_ila_0_v1_05_a/chipscope_ila/imp 1431322605 \
-      FL C:/20150106/hdl/elaborate/chipscope_ila_0_v1_05_a/synhdl/vhdl/chipscope_ila_0.vhd \
-      EN chipscope_ila_0_v1_05_a/chipscope_ila 1431322604 CP chipscope_ila_0
